@@ -1,0 +1,36 @@
+
+
+purple {
+    color: blueviolet;
+}
+
+blue {
+    color :#618BE7;
+}
+
+h2 {
+    margin: 0px !important;
+} 
+
+.answers {
+    text-align: center;
+    margin: 50px;
+}
+
+#dicaAlta {
+    display: none;
+    color: black;
+    background-color: #618BE7;
+}
+
+#dicaBaixa{
+    display: none;
+    color: black;
+    background-color:blueviolet;
+}
+
+#ganhou{
+    display: none;
+    color: black;
+    background-color:rgb(231, 131, 0);
+}

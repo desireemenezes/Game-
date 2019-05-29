@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Game</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1> Game <Strong><purple>.</purple>-<blue>.</blue></Strong></h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Adivinhe um número</h2><br/>
+            Selecionamos um número aleatório entre 1 e 100. Veja se consegue 
+            adivinhar em 10 chances ou menos. Lhe diremos se seu palpite está com valor alto ou baixo.
+        </div><br/>
+        <div class="col-md-6">
+            <div class="form-group">
+              <label for="numeroDigitado">Digite seu palpite:</label>
+              <input type="text" id="numeroDigitado" placeholder="Ex: 9">
+              <button type="submit"id="envioNumero" onclick="verificaPalpite()"class="btn btn-primary">GO!!</button>
+            </div>  
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="answers">
+            <h3>NÚMEROS DIGITADOS:</h3><br/>
+            <div id="resultados"></div><br>
+            <div id="tentativas"></div><br>
+            <div id="dicaAlta">
+              <span>Seu palpite esta alto</span>
+            </div>
+            <div id="dicaBaixa">
+              <span>Seu palpite esta baixo</span>
+            </div>
+            <div id="ganhou">
+                <STRONG> PARABÉNS VOCÊ GANHOU! </STRONG>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!--final container-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
