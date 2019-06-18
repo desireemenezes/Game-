@@ -10,8 +10,8 @@ window.onload = inicializaGame = () => {
     contador = 1;
     tentativasRealizadas = "";
     
-    console.log(numeroAleatorio)
-    console.log(contador)
+    //console.log(numeroAleatorio)
+    //console.log(contador)
 
     $("#tentativas").innerHTML = tentativasRealizadas;
     $("#numeroDigitado").val();
@@ -31,7 +31,7 @@ const verificaPalpite = () => {
 
     } else {  
         tentativasRealizadas += ultimoNumerodigitado + " ";
-        console.log(tentativasRealizadas)
+       // console.log(tentativasRealizadas)
         $("#tentativas").html(tentativasRealizadas);
     }
 
