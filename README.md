@@ -1,6 +1,6 @@
 
-Jogo de adivinhar números!
+#Jogo de adivinhar números!
 
 Localmente:
 
-Escuta na porta http://localhost:9000
+porta http://localhost:9000
